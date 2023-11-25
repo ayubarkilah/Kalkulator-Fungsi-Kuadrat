@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulus 1</title>
+    <style>
+       body {
+    font-family: 'Open Sans', sans-serif;
+    background: linear-gradient(to right, #3498db, #ffffff); /* Gradasi dari biru ke putih */
+    margin: 0;
+    padding: 0;
+    position: relative;
+    color: #ffffff; /* Warna putih untuk teks */
+}
+
+
+        header {
+            background-color: rgb(0, 0, 0); /* Warna biru tua */
+            padding: 1em;
+            text-align: center;
+        }
+
+        nav {
+            padding: 8em;
+            position: absolute;
+            top: 3px;
+            right: 0;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #000000;
+            padding: 0.8em 2em; /* Adjusted padding for better button proportions */
+            margin: 0 0.50em;
+            border-radius: 20px;
+            background-color: rgb(255, 255, 255);
+            display: inline-block; /* Change to inline-block for button-like appearance */
+            margin-bottom: 1em;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add subtle box shadow for depth */
+            transition: background-color 0.3s ease, transform 0.2s ease; /* Add transition for smoother effects */
+        }
+
+        nav a:hover {
+            background-color: #0f6e9c;
+            transform: scale(1.05); /* Add slight scale on hover for an interactive effect */
+        }
+
+        section {
+            padding: 1em;
+            margin-top: 10px;
+            color: #ffffff; /* Warna putih untuk teks */
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .calculator-description {
+            flex: 30;
+            margin-right: 1px; /* Tambahkan margin kanan untuk memberi ruang */
+            margin-bottom: 20px; /* Tambahkan margin bawah untuk memberi ruang */
+            align-self: flex-start; /* Geser ke atas */
+        }
+
+        .image-container {
+            text-align: center;
+        }
+
+        .lottie-container {
+            position: relative;
+            left: -20px; /* Sesuaikan pergeseran ke kiri */
+            top: 20px; /* Sesuaikan pergeseran ke bawah */
+        }
+
+        .additional-content {
+            text-align: center;
+            margin-top: 20px;
+            color: #000000;
+        }
+
+        .tools {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .tools a {
+            text-decoration: none;
+            color: #070000;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Kalkulus 1</h1>
+    </header>
+
+    <nav>
+        <a href="biodata.html">Biodata</a>
+        <a href="kalkulator.html">Kalkulator</a>
+        <a href="#" onclick="exit()">Keluar</a>
+    </nav>
+
+    <section>
+        <div class="calculator-description">
+            <h2>Kalkulator Fungsi Kuadrat</h2>
+            <p>Hitung nilai fungsi kuadrat dengan cepat dan lihat grafik interaktifnya.</p>
+            <p>Dapatkan informasi diskriminan, akar-akar, dan titik ekstrim secara instan.</p>
+            <div class="calculator-description">
+               <P></P>
+               <P></P>
+                <h2> Quadratic function (Fungsi kuadrat)</h2>
+            <P>fungsi kuadrat adalah sebuah fungsi polinomial atau suku banyak 
+            </P>dimana pangkat tertinggi dari variable atau perubahnya adalah 2
+            <p>Bentuk umum persamaan kuadrat adalah:
+                <p style="font-weight: bold;">ax^2 + bx + c = 0</p>
+            <p>Sedangkan bentuk umum dari fungsi kuadrat adalah:
+                <p style="font-weight: bold;">f(x) = ax^2 + bx + c</p>
+                <P>Dengan a, b, merupakan koefisien, dan c adalah konstanta.
+
+                </P>
+        </div>
+        </div>
+        <div class="lottie-container">
+            <lottie-player src="https://lottie.host/917b9800-ad3e-4d75-86ae-bbbc4089f93d/UJEreFoa18.json"
+                background="##FFFFFF" speed="1" style="width: 530px; height: 530px" loop controls autoplay
+                direction="1" mode="normal"></lottie-player>
+        </div>
+    </section>
+
+    <div class="additional-content">
+        <h2></h2><p style="font-weight: bold;">Teknik Informatika</p>
+        <p>Universitas Siliwangi.</p>
+    </div>
+
+    <script>
+        function exit() {
+            var confirmExit = confirm("Apakah Anda yakin ingin keluar?");
+            if (confirmExit) {
+                window.location.href = "https://www.google.com";
+            }
+        }
+    </script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+</body>
+
+</html>

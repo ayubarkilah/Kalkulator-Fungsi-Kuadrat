@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <title>Kalkulator Fungsi Kuadrat</title>
+</head>
+<body>
+
+<div class="calculator">
+    <h2>Kalkulator Fungsi Kuadrat</h2>
+    
+    <label for="a">Masukkan nilai a:</label>
+    <input type="number" id="a" placeholder="Masukkan nilai a">
+
+    <label for="b">Masukkan nilai b:</label>
+    <input type="number" id="b" placeholder="Masukkan nilai b">
+
+    <label for="c">Masukkan nilai c:</label>
+    <input type="number" id="c" placeholder="Masukkan nilai c">
+
+    <button onclick="hitungDanGambarGrafik()">Hitung</button>
+
+    <p id="hasil"></p>
+
+    <div id="grafik" class="chart-container"></div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
